@@ -2,6 +2,7 @@
 
 const hostname = '127.0.0.1';
 const port = 3333;
+const http = require('http');
 
 const express = require('express'),
     es6Renderer = require('express-es6-template-engine');
